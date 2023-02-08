@@ -1,0 +1,30 @@
+h1{
+	text-align:center;
+	color:blue;
+}
+table, tr,th, td
+{
+	padding:20px 20px 20px 20px;
+	text-align:center;
+	border:3px solid black;
+}
+table{
+	margin-left:31%;
+	margin-top:12%;
+}
+th{
+	padding:2px;
+	background-color:aqua;
+}
+
+.first:hover{
+	background-color:orange;
+}
+.second td:hover{
+	background-color:blue;
+	border-radius:50px;
+}
+.third td:hover:nth-child(odd) {
+	background-color:gray;
+}
+
